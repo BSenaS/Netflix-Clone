@@ -1,0 +1,30 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.profile-card {
+  width: 150px;
+  padding: 1rem;
+}
+
+.profile-card:hover img{
+  width: 146px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.profile-card:hover h2{
+  color: white;
+}
+
+.profile-card img {
+  display: block;
+  width: 100%;
+}
+
+.profile-card h2 {
+  text-align: center;
+  color: gray;
+}
